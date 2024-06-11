@@ -12,9 +12,7 @@ It is the one that recieve the request, send the request to the services
 1. Clone repository
 2. Npm install
 3. Create the `.env` based on `.env.template`
-4. Be aware the whole microservices that you need to run
-5. Start the project `npm run sdtart:dev`
-
-
-## NATS
+4. Run nats server 
 `docker run -d --name nats-server -p 4222:4222 -p 8222:8222 nats`
+5. Be aware the whole microservices that you need to run
+6. Start the project `npm run sdtart:dev`
