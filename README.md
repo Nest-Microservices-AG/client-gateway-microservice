@@ -16,3 +16,8 @@ It is the one that recieve the request, send the request to the services
 `docker run -d --name nats-server -p 4222:4222 -p 8222:8222 nats`
 5. Be aware the whole microservices that you need to run
 6. Start the project `npm run sdtart:dev`
+
+
+## PROD
+
+Execute ```docker build -f dockerfile.prod -t client-gateway .```
